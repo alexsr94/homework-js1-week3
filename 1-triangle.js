@@ -17,3 +17,11 @@ console.log(abc.length);
 */
 
 //your code here
+
+let part = "#";
+
+while (part.length<7) {
+    console.log(part);
+    part = part + "#";
+    
+}

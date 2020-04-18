@@ -19,3 +19,19 @@ When you have a program that generates this pattern, define a binding size
 = 8 and change the program so that it works for any size, outputting a grid
 of the given width and height
 */
+
+const chess1 = "#";
+for(i=0;i<8;i++){
+    if(i%2!==0){
+        
+        
+        
+
+
+}
+if(i%2==0){
+    
+    
+    
+}}
+// i dont know how to inser new empty line to a string.
