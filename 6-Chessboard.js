@@ -20,16 +20,13 @@ When you have a program that generates this pattern, define a binding size
 of the given width and height
 */
 
-const chess1 = "#";
-let chessgrid="";
-function customChessGrid(w,h){
-    for (i = 0; i < h; i++) {
-        chessgrid = (" " + chess1).repeat(w) + "\n";
-
-
-        console.log(chessgrid);
-    }
-
+function customChessGrid(num1, num2) {
+  const chess1 = "#";
+  let chessgrid;
+  for (i = 0; i < num1; i++) {
+    chessgrid += (" " + chess1).repeat(num2) + "\n";
+  }
+  return chessgrid;
 }
-
+console.log(customChessGrid(10, 5));
 // i dont know how to inser new empty line to a string.
