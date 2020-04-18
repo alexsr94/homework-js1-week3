@@ -21,17 +21,15 @@ of the given width and height
 */
 
 const chess1 = "#";
-for(i=0;i<8;i++){
-    if(i%2!==0){
-        
-        
-        
+let chessgrid="";
+function customChessGrid(w,h){
+    for (i = 0; i < h; i++) {
+        chessgrid = (" " + chess1).repeat(w) + "\n";
 
+
+        console.log(chessgrid);
+    }
 
 }
-if(i%2==0){
-    
-    
-    
-}}
+
 // i dont know how to inser new empty line to a string.

@@ -4,7 +4,7 @@ Given an array of numbers, create a function to return the maximum
 */
 
 function max(numbers){
-    return Math.max.apply(numbers);
+    return Math.max.apply(null,numbers);
     
 }
 
